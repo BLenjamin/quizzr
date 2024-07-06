@@ -23,6 +23,29 @@ body {
 }
 
 .answer_option:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.progress {
+    border-radius: 0 !important;
+}
+
+#restart_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
